@@ -1,0 +1,16 @@
+lname = input("Enter your last name: ")
+fname = input("Enter your first name: ")
+age = int(input("Enter your age: "))
+Contact = input("Enter your contact number: ")
+Course = input("Enter your course: ")
+
+fopen = open("students.txt", "a")
+fopen.write("Last Name: " + lname + "\n")
+fopen.write("First Name: " + fname + "\n")
+fopen.write("Age: " + str(age) + "\n")
+fopen.write("Contact Number: " + Contact + "\n")
+fopen.write("Course: " + Course + "\n")
+fopen.write("\n")
+f.close()
+
+print("Student Information has been saved to students.txt")

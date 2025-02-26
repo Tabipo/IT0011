@@ -1,0 +1,11 @@
+fname = input("Enter your first name: ")
+lname = input("Enter your last name: ")
+fullname = fname + " " + lname
+uppername = fullname.upper()
+lowername = fullname.lower()
+lengthname = len(fullname)
+print()
+print("Full Name: ", fullname)
+print("Full Name (Upper Cased): ", uppername)
+print("Full Name (Lower Cased): ", lowername)
+print("Length of Full Name: ", lengthname)
